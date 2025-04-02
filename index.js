@@ -12,5 +12,5 @@ routes(app);
 
 // Lanzamos el servidor en el puerto definido
 app.listen(port, () => {
-    console.log(`🚀 Servidor escuchando en el puerto ${port}`);
+    console.log(` Servidor escuchando en el puerto ${port}`);
 });

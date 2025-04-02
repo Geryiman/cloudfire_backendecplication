@@ -20,7 +20,7 @@ async function onRemoveImage(req, res) {
     const result = await Controller.onRemoveImage(imageId);
     res.send(result.data);
 }
-// DELETE con query param
+// DELETE con param
 async function onRemoveImageByQuery(req, res) {
     const imageId = req.query.imageId;
     if (!imageId) {
